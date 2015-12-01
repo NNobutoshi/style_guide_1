@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>styleguide: </title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="../common/css/siteglobal.css" />
+<link rel="stylesheet" href="css/view_slices.css" />
+<link rel="stylesheet" href="css/hologram.css" />
+</head>
+<body>
+<div class="page-01" id="page">
+
+<header class="pHead-01" id="pHead">
+<div class="group">
+<h1>Site Global Styles</h1>
+<nav class="globalNav">
+<ul>
+
+<li><a href="group.html">group</a></li>
+
+<li><a href="navigation.html">navigation</a></li>
+
+<li><a href="list.html">list</a></li>
+
+<li><a href="section.html">section</a></li>
+
+<li><a href="heading.html">heading</a></li>
+
+</ul>
+</nav>
+<!-- /.group --></div>
+<!-- /#pHead --></header>
+
+<section class="pBody" id="pBody-main">
+
+<section class="main-01" id="sec-main">
+<div class="group">
+<!-- sample -->
+<h1>site global styles</h1>
+<!-- /.group --></div>
+</section>
+<!-- /.pBody#pBody-main --></section>
+<footer class="pFoot-01" id="pFoot">
+<div class="group">
+<p>This documentation generated using <a href="http://github.com/trulia/hologram">Hologram</a>
+<!-- /.group --></div>
+</footer>
+<!-- /.page-01#page --></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="js/jquery.view_slices.js" charset="utf-8"></script>
+<!-- sample -->
+<script>
+(function($){
+  $('.main-01 .exampleOutput>*').view_slices({heading:false});
+})(jQuery);
+</script>
+<!-- /sample -->
+</body>
+</html>

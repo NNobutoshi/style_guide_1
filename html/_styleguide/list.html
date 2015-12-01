@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>styleguide: list</title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="../common/css/siteglobal.css" />
+<link rel="stylesheet" href="css/view_slices.css" />
+<link rel="stylesheet" href="css/hologram.css" />
+</head>
+<body>
+<div class="page-01" id="page">
+
+<header class="pHead-01" id="pHead">
+<div class="group">
+<h1>Site Global Styles</h1>
+<nav class="globalNav">
+<ul>
+
+<li><a href="group.html">group</a></li>
+
+<li><a href="navigation.html">navigation</a></li>
+
+<li><a href="list.html">list</a></li>
+
+<li><a href="section.html">section</a></li>
+
+<li><a href="heading.html">heading</a></li>
+
+</ul>
+</nav>
+<!-- /.group --></div>
+<!-- /#pHead --></header>
+
+<section class="pBody" id="pBody-main">
+
+<header>
+<h1>list</h1>
+<ul class="internalNav">
+
+<li><a href="#linkList-01">.linkList-01</a></li>
+
+<li><a href="#linkList-02">.linkList-02</a></li>
+
+<li><a href="#list-01">.list-01</a></li>
+
+<li><a href="#list-02">.list-02</a></li>
+
+<li><a href="#orderdList-01">.orderdList-01</a></li>
+
+<li><a href="#orderdList-02">.orderdList-02</a></li>
+
+</ul>
+</header>
+
+<section class="main-01" id="sec-main">
+<div class="group">
+<!-- sample -->
+<h1 id="linkList-01" class="styleguide">.linkList-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<ul class="linkList-01">
+<li><a href="#">hoge</a></li>
+<li><a href="#">hogehoge</a></li>
+<!-- /.linkList-01 --></ul>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="linkList-02" class="styleguide">.linkList-02</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<ul class="linkList-02">
+<li><a href="#">Lorem ipsum.</a></li>
+<li><a href="#">Sit, omnis.</a></li>
+<li><a href="#">Deleniti, repudiandae!</a></li>
+<!-- /.linkList-02 --></ul>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="list-01" class="styleguide">.list-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<ul class="list-01">
+<li>Lorem ipsum.</li>
+<li>Quas, sed.</li>
+<li>Aliquam, ad?</li>
+<!-- /.list-01 --></ul>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="list-02" class="styleguide">.list-02</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<ul class="list-02">
+<li>Lorem ipsum.</li>
+<li>Ab, culpa.</li>
+<li>Molestias, quidem.</li>
+<!-- /.list-02 --></ul>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="orderdList-01" class="styleguide">.orderdList-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<ol class="orderdList-01">
+<li>Lorem ipsum.</li>
+<li>Rerum, saepe.</li>
+<li>Praesentium, voluptatibus!</li>
+<!-- /.orderdList-01 --></ol>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="orderdList-02" class="styleguide">.orderdList-02</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<ol class="orderdList-02">
+<li>Lorem ipsum.</li>
+<li>Rerum, saepe.</li>
+<li>Praesentium, voluptatibus!</li>
+<!-- /.orderdList-02 --></ol>
+<!-- /component -->
+</div>
+</div>
+<p class="styleguide">説明です。</p><!-- /.group --></div>
+</section>
+<!-- /.pBody#pBody-main --></section>
+<footer class="pFoot-01" id="pFoot">
+<div class="group">
+<p>This documentation generated using <a href="http://github.com/trulia/hologram">Hologram</a>
+<!-- /.group --></div>
+</footer>
+<!-- /.page-01#page --></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="js/jquery.view_slices.js" charset="utf-8"></script>
+<!-- sample -->
+<script>
+(function($){
+  $('.main-01 .exampleOutput>*').view_slices({heading:false});
+})(jQuery);
+</script>
+<!-- /sample -->
+</body>
+</html>

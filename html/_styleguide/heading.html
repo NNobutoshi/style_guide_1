@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>styleguide: heading</title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="../common/css/siteglobal.css" />
+<link rel="stylesheet" href="css/view_slices.css" />
+<link rel="stylesheet" href="css/hologram.css" />
+</head>
+<body>
+<div class="page-01" id="page">
+
+<header class="pHead-01" id="pHead">
+<div class="group">
+<h1>Site Global Styles</h1>
+<nav class="globalNav">
+<ul>
+
+<li><a href="group.html">group</a></li>
+
+<li><a href="navigation.html">navigation</a></li>
+
+<li><a href="list.html">list</a></li>
+
+<li><a href="section.html">section</a></li>
+
+<li><a href="heading.html">heading</a></li>
+
+</ul>
+</nav>
+<!-- /.group --></div>
+<!-- /#pHead --></header>
+
+<section class="pBody" id="pBody-main">
+
+<header>
+<h1>heading</h1>
+<ul class="internalNav">
+
+<li><a href="#sHead-lv1-01">.sHead-lv1-01</a></li>
+
+<li><a href="#sHead-lv2-01">.sHead-lv2-01</a></li>
+
+<li><a href="#sHead-lv2-02">.sHead-lv2-02</a></li>
+
+<li><a href="#sHead-lv3-01">.sHead-lv3-01</a></li>
+
+<li><a href="#sHead-lv4-01">.sHead-lv4-01</a></li>
+
+<li><a href="#sHead-lv5-01">.sHead-lv5-01</a></li>
+
+<li><a href="#sHead-lv6-01">.sHead-lv6-01</a></li>
+
+</ul>
+</header>
+
+<section class="main-01" id="sec-main">
+<div class="group">
+<!-- sample -->
+<h1 id="sHead-lv1-01" class="styleguide">.sHead-lv1-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<header class="sHead-lv1-01">
+<h1>レベル1</h1>
+<!-- /.sHead-lv1-01 --></header>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="sHead-lv2-01" class="styleguide">.sHead-lv2-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<header class="sHead-lv2-01">
+<h2>レベル2</h2>
+<!-- /.sHead-lv2-01 --></header>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="sHead-lv2-02" class="styleguide">.sHead-lv2-02</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<header class="sHead-lv2-02">
+<h2>レベル2</h2>
+<!-- /.sHead-lv2-02 --></header>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="sHead-lv3-01" class="styleguide">.sHead-lv3-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<header class="sHead-lv3-01">
+<h3>レベル3</h3>
+<!-- /.sHead-lv3-01 --></header>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="sHead-lv4-01" class="styleguide">.sHead-lv4-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<header class="sHead-lv4-01">
+<h4>レベル4</h4>
+<!-- /.sHead-lv4-01 --></header>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="sHead-lv5-01" class="styleguide">.sHead-lv5-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<header class="sHead-lv5-01">
+<h5>レベル5</h5>
+<!-- /.sHead-lv5-01 --></header>
+<!-- /component -->
+</div>
+</div>
+
+<h1 id="sHead-lv6-01" class="styleguide">.sHead-lv6-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<header class="sHead-lv6-01">
+<h6>レベル6</h6>
+<!-- /.sHead-lv6-01 --></header>
+<!-- /component -->
+</div>
+</div>
+<!-- /.group --></div>
+</section>
+<!-- /.pBody#pBody-main --></section>
+<footer class="pFoot-01" id="pFoot">
+<div class="group">
+<p>This documentation generated using <a href="http://github.com/trulia/hologram">Hologram</a>
+<!-- /.group --></div>
+</footer>
+<!-- /.page-01#page --></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="js/jquery.view_slices.js" charset="utf-8"></script>
+<!-- sample -->
+<script>
+(function($){
+  $('.main-01 .exampleOutput>*').view_slices({heading:false});
+})(jQuery);
+</script>
+<!-- /sample -->
+</body>
+</html>

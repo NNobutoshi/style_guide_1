@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>a brand new styleguide: header</title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="../common/css/siteglobal.css" />
+<link rel="stylesheet" href="css/view_slices.css" />
+<link rel="stylesheet" href="css/hologram.css" />
+</head>
+<body>
+<div class="page-01" id="page">
+
+<header id="pHead">
+<div class="group">
+<h1>Site Global Styles</h1>
+<nav class="golobalNav-01">
+<ul>
+
+<li><a href="header.html">header</a></li>
+
+</ul>
+</nav>
+<!-- /.group --></div>
+<!-- /#pHead --></header>
+
+<section class="pBody" id="pBody-main">
+<div class="group">
+<header>
+<h1>Sample</h1>
+<ul class="internalNav-01">
+
+<li><a href="#_01_sHead-01">sHead-01</a></li>
+
+</ul>
+</header>
+
+<section class="main-01" id="sec-main">
+<!-- sample -->
+<h1 id="_01_sHead-01" class="styleguide">sHead-01</h1>
+<div class="codeExample">
+<div class="exampleOutput">
+<!-- component -->
+<header class="sHead-lv2-01">
+<h2>レベル1</h2>
+</header>
+<!-- /component -->
+</div>
+</div>
+</section>
+<!-- /.group --></div>
+<!-- /.pBody#pBody-main --></section>
+<footer id="pFoot">
+<p>This documentation generated using <a href="http://github.com/trulia/hologram">Hologram</a>
+</footer>
+<!-- /.page-01#page --></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="js/jquery.view_slices.js" charset="utf-8"></script>
+<!-- sample -->
+<script>
+(function($){
+  $('.main-01 .exampleOutput').view_slices({heading:'h1.styleguide'});
+})(jQuery);
+</script>
+<!-- /sample -->
+</body>
+</html>

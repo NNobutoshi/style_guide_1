@@ -1,0 +1,408 @@
+html {
+  font-size: 14px;
+}
+
+/*doc
+---
+title: .sec-01
+name: sec-01
+category: section
+---
+
+```html_example
+<section class="sec-01">
+<header class="sHead">
+<h2>レベル2</h2>
+</header>
+<div class="sBody">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi et, ullam, ipsum consectetur repellat autem voluptatibus, temporibus at quo velit assumenda perferendis accusantium ducimus vitae fugiat nostrum a distinctio quam.
+</p>
+</div>
+<!-- /.sec-01 --></section>
+```
+*/
+
+/*doc
+---
+title: .sec-02
+name: sec-02
+category: section
+---
+
+```html_example
+<section class="sec-02">
+<header class="sHead">
+<h2>レベル2</h2>
+</header>
+<div class="sBody">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi et, ullam, ipsum consectetur repellat autem voluptatibus, temporibus at quo velit assumenda perferendis accusantium ducimus vitae fugiat nostrum a distinctio quam.
+</p>
+</div>
+<!-- /.sec-02 --></section>
+```
+*/
+
+/*doc
+---
+title: .sHead-lv1-01
+name: sHead-lv1-01
+category: heading
+---
+
+```html_example
+<header class="sHead-lv1-01">
+<h1>レベル1</h1>
+<!-- /.sHead-lv1-01 --></header>
+```
+*/
+.sHead-lv1-01 {
+  font-size: 3.5rem;
+}
+
+/*doc
+---
+title: .sHead-lv2-01
+name: sHead-lv2-01
+category: heading
+---
+
+```html_example
+<header class="sHead-lv2-01">
+<h2>レベル2</h2>
+<!-- /.sHead-lv2-01 --></header>
+```
+*/
+.sHead-lv2-01 {
+  font-size: 2.5rem;
+}
+
+/*doc
+---
+title: .sHead-lv2-02
+name: sHead-lv2-02
+category: heading
+---
+
+```html_example
+<header class="sHead-lv2-02">
+<h2>レベル2</h2>
+<!-- /.sHead-lv2-02 --></header>
+```
+*/
+.sHead-lv2-02 {
+  font-size: 2rem;
+}
+
+
+/*doc
+---
+title: .sHead-lv3-01
+name: sHead-lv3-01
+category: heading
+---
+
+```html_example
+<header class="sHead-lv3-01">
+<h3>レベル3</h3>
+<!-- /.sHead-lv3-01 --></header>
+```
+*/
+.sHead-lv3-01 {
+  font-size: 1.5rem;
+}
+
+
+/*doc
+---
+title: .sHead-lv4-01
+name: sHead-lv4-01
+category: heading
+---
+
+```html_example
+<header class="sHead-lv4-01">
+<h4>レベル4</h4>
+<!-- /.sHead-lv4-01 --></header>
+```
+*/
+.sHead-lv4-01 {
+  font-size: 1rem;
+}
+
+/*doc
+---
+title: .sHead-lv5-01
+name: sHead-lv5-01
+category: heading
+---
+
+```html_example
+<header class="sHead-lv5-01">
+<h5>レベル5</h5>
+<!-- /.sHead-lv5-01 --></header>
+```
+*/
+
+/*doc
+---
+title: .sHead-lv6-01
+name: sHead-lv6-01
+category: heading
+---
+
+```html_example
+<header class="sHead-lv6-01">
+<h6>レベル6</h6>
+<!-- /.sHead-lv6-01 --></header>
+```
+*/
+
+/*doc
+---
+title: .list-01
+name: list-01
+category: list
+---
+
+```html_example
+<ul class="list-01">
+<li>Lorem ipsum.</li>
+<li>Quas, sed.</li>
+<li>Aliquam, ad?</li>
+<!-- /.list-01 --></ul>
+```
+*/
+
+/*doc
+---
+title: .list-02
+name: list-02
+category: list
+---
+
+```html_example
+<ul class="list-02">
+<li>Lorem ipsum.</li>
+<li>Ab, culpa.</li>
+<li>Molestias, quidem.</li>
+<!-- /.list-02 --></ul>
+```
+*/
+
+/*doc
+---
+title: .linkList-01
+name: linkList-01
+category: list
+---
+
+```html_example
+<ul class="linkList-01">
+<li><a href="#">hoge</a></li>
+<li><a href="#">hogehoge</a></li>
+<!-- /.linkList-01 --></ul>
+```
+*/
+
+/*doc
+---
+title: .linkList-02
+name: linkList-02
+category: list
+---
+
+```html_example
+<ul class="linkList-02">
+<li><a href="#">Lorem ipsum.</a></li>
+<li><a href="#">Sit, omnis.</a></li>
+<li><a href="#">Deleniti, repudiandae!</a></li>
+<!-- /.linkList-02 --></ul>
+```
+*/
+
+/*doc
+---
+title: .orderdList-01
+name: orderdList-01
+category: list
+---
+
+```html_example
+<ol class="orderdList-01">
+<li>Lorem ipsum.</li>
+<li>Rerum, saepe.</li>
+<li>Praesentium, voluptatibus!</li>
+<!-- /.orderdList-01 --></ol>
+```
+*/
+
+/*doc
+---
+title: .orderdList-02
+name: orderdList-02
+category: list
+---
+
+```html_example
+<ol class="orderdList-02">
+<li>Lorem ipsum.</li>
+<li>Rerum, saepe.</li>
+<li>Praesentium, voluptatibus!</li>
+<!-- /.orderdList-02 --></ol>
+```
+説明です。
+*/
+
+
+/*doc
+---
+title: .pair-01
+name: pair-01
+category: group
+---
+
+```html_example
+<div class="pair-01">
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Lorem.</figcaption>
+</figure>
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Eligendi.</figcaption>
+</figure>
+<!-- /.pair-01 --></div>
+```
+*/
+
+
+
+/*doc
+---
+title: .group-01
+name: group-01
+category: group
+---
+
+```html_example
+<div class="group-01">
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Lorem.</figcaption>
+</figure>
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Tempore!</figcaption>
+</figure>
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Fugit?</figcaption>
+</figure>
+<!-- /.group-01 --></div>
+```
+*/
+
+/*doc
+---
+title: .group-02
+name: group-02
+category: group
+---
+
+```html_example
+<div class="group-02">
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Lorem.</figcaption>
+</figure>
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Tempore!</figcaption>
+</figure>
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Fugit?</figcaption>
+</figure>
+<!-- /.group-02 --></div>
+```
+*/
+
+/*doc
+---
+title: .group-03
+name: group-03
+category: group
+---
+
+```html_example
+<div class="group-03">
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Lorem.</figcaption>
+</figure>
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Tempore!</figcaption>
+</figure>
+<figure>
+<img src="../common/img/sample.png" alt="sample" width="300" height="200" />
+<figcaption>Fugit?</figcaption>
+</figure>
+<!-- /.group-03 --></div>
+```
+*/
+
+/*doc
+---
+title: .siteGlobalNav-01
+name: siteGlobalNav-01
+category: navigation
+---
+
+```html_example
+<nav class="siteGlobalNav-01">
+<ul>
+<li><a href="#">Lorem ipsum.</a></li>
+<li><a href="#">Voluptatibus, dolore!</a></li>
+<li><a href="#">Rerum, odio.</a></li>
+<li><a href="#">Qui, ratione?</a></li>
+</ul>
+<!-- /.siteGlobalNav --></nav>
+```
+*/
+
+/*doc
+---
+title: .localNav-01
+name: localNav-01
+category: navigation
+---
+
+```html_example
+<nav class="localNav-01">
+<ul>
+<li><a href="#">Lorem ipsum.</a></li>
+<li><a href="#">Laboriosam, nihil!</a></li>
+<li><a href="#">Corporis, dignissimos?</a></li>
+<li><a href="#">Optio, suscipit.</a></li>
+</ul>
+<!-- /.localNav --></nav>
+```
+*/
+
+/*doc
+---
+title: .internalNav-01
+name: internalNav-01
+category: navigation
+---
+
+```html_example
+<ul class="internalNav-01">
+<li><a href="#">Lorem ipsum.</a></li>
+<li><a href="#">Minima, accusamus.</a></li>
+<li><a href="#">Error, possimus.</a></li>
+<li><a href="#">Quaerat, repellendus!</a></li>
+<!-- /.internalNav --></ul>
+```
+*/
