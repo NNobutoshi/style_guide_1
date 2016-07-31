@@ -13,4 +13,4 @@ $ bundle exec hologram
 ```
 
 ## サンプル
-[style_guide](https://nnobutoshi.github.io/style_guide/sample/)
+[style_guide](https://nnobutoshi.github.io/style_guide_1/html/sample/)
